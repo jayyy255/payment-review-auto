@@ -1,0 +1,17 @@
+{
+  "payment_id": "pay-sample-low-001",
+  "customer_id": "cust-9001",
+  "amount": 450.00,
+  "currency": "USD",
+  "beneficiary_id": "ben-regular-12",
+  "beneficiary_country": "US",
+  "customer_country": "US",
+  "transaction_timestamp": "2026-03-01T14:30:00Z",
+  "payment_channel": "online",
+  "customer_average_amount": 500.00,
+  "customer_transaction_count": 120,
+  "recent_transaction_count": 2,
+  "previous_beneficiary": true,
+  "previous_beneficiary_count": 24,
+  "customer_risk_rating": "low"
+}

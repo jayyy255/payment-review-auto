@@ -1,0 +1,25 @@
+services:
+  payment-review-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: payment-review-service
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=false
+      - PORT=8000
+      - HOST=0.0.0.0
+      - AMOUNT_RATIO_MEDIUM_THRESHOLD=3.0
+      - AMOUNT_RATIO_HIGH_THRESHOLD=10.0
+      - FREQUENCY_SPIKE_THRESHOLD=2.5
+      - MEDIUM_RISK_THRESHOLD=0.40
+      - HIGH_RISK_THRESHOLD=0.70
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health').read()"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped

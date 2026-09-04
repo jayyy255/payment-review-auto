@@ -1,0 +1,17 @@
+{
+  "payment_id": "pay-sample-missing-006",
+  "customer_id": "cust-9006",
+  "amount": 7500.00,
+  "currency": "USD",
+  "beneficiary_id": "ben-unknown-11",
+  "beneficiary_country": "US",
+  "customer_country": "US",
+  "transaction_timestamp": "2026-03-02T18:00:00Z",
+  "payment_channel": "online",
+  "customer_average_amount": null,
+  "customer_transaction_count": null,
+  "recent_transaction_count": null,
+  "previous_beneficiary": null,
+  "previous_beneficiary_count": null,
+  "customer_risk_rating": null
+}

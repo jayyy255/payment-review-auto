@@ -1,0 +1,17 @@
+{
+  "payment_id": "pay-sample-velocity-005",
+  "customer_id": "cust-9005",
+  "amount": 950.00,
+  "currency": "USD",
+  "beneficiary_id": "ben-regular-12",
+  "beneficiary_country": "US",
+  "customer_country": "US",
+  "transaction_timestamp": "2026-03-02T16:00:00Z",
+  "payment_channel": "online",
+  "customer_average_amount": 900.00,
+  "customer_transaction_count": 30,
+  "recent_transaction_count": 22,
+  "previous_beneficiary": true,
+  "previous_beneficiary_count": 8,
+  "customer_risk_rating": "low"
+}

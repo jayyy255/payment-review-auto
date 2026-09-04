@@ -1,0 +1,17 @@
+{
+  "payment_id": "pay-sample-high-002",
+  "customer_id": "cust-9002",
+  "amount": 48000.00,
+  "currency": "USD",
+  "beneficiary_id": "ben-intl-99",
+  "beneficiary_country": "SG",
+  "customer_country": "US",
+  "transaction_timestamp": "2026-03-02T08:15:00Z",
+  "payment_channel": "wire",
+  "customer_average_amount": 1200.00,
+  "customer_transaction_count": 80,
+  "recent_transaction_count": 18,
+  "previous_beneficiary": false,
+  "previous_beneficiary_count": 0,
+  "customer_risk_rating": "medium"
+}

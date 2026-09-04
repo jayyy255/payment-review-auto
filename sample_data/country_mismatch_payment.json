@@ -1,0 +1,17 @@
+{
+  "payment_id": "pay-sample-mismatch-004",
+  "customer_id": "cust-9004",
+  "amount": 2200.00,
+  "currency": "EUR",
+  "beneficiary_id": "ben-foreign-33",
+  "beneficiary_country": "CH",
+  "customer_country": "FR",
+  "transaction_timestamp": "2026-03-02T12:45:00Z",
+  "payment_channel": "online",
+  "customer_average_amount": 2000.00,
+  "customer_transaction_count": 35,
+  "recent_transaction_count": 1,
+  "previous_beneficiary": true,
+  "previous_beneficiary_count": 3,
+  "customer_risk_rating": "low"
+}
